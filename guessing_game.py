@@ -10,9 +10,9 @@ while True:
     if(guess == ranNo):
         print(f"Congragulations!! The number is {guess}")
         break
-    elif (guess != ranNo ):
+    elif (guess < ranNo ):
         print("Thats too low.. TRY AGAIN!")
-    elif (guess > ranNo):
+    elif (guess > ranNo and guess > 10):
         print("Thats too high.. TRY AGAIN!")  
     else:
         print("Not even close.. TRY AGAIN!")  
